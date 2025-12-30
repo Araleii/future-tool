@@ -73,5 +73,19 @@ export interface AppSettings {
   poeKey: string;
   poeModel: string;
   wecomWebhook: string;
-  refreshInterval: number; // minutes
+  refreshInterval: number;
+}
+
+export interface SystemLog {
+  id: string;
+  timestamp: Date;
+  level: 'INFO' | 'WARN' | 'ERROR' | 'SUCCESS';
+  message: string;
+}
+
+export interface FetchProgress {
+  step: number;
+  totalSteps: number;
+  currentTask: string;
+  percentage: number;
 }
