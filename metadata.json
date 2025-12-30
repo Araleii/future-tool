@@ -1,0 +1,5 @@
+{
+  "name": "ETH Trading Pulse AI",
+  "description": "An advanced Ethereum perpetual trading alert tool that fetches multi-timeframe market data, calculates technical indicators, and uses Gemini or OpenAI to provide deep trading strategies with WeCom webhook integration.",
+  "requestFramePermissions": []
+}
