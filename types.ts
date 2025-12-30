@@ -62,13 +62,16 @@ export interface AIAnalysis {
 
 export enum AIModelType {
   GEMINI = 'GEMINI',
-  OPENAI = 'OPENAI'
+  OPENAI = 'OPENAI',
+  POE = 'POE'
 }
 
 export interface AppSettings {
   aiModel: AIModelType;
   openaiKey: string;
   openaiModel: string;
+  poeKey: string;
+  poeModel: string;
   wecomWebhook: string;
   refreshInterval: number; // minutes
 }
